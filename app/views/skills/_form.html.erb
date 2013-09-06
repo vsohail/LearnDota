@@ -19,6 +19,22 @@
     <%= f.label :description %><br>
     <%= f.text_field :description %>
   </div>
+  <div class="field">
+    <%= f.label :actpass %><br>
+    <%= f.check_box :actpass %>
+  </div>
+  <div class="field">
+    <%= f.label :ultimate %><br>
+    <%= f.check_box :ultimate %>
+  </div>
+  <div class="field">
+    <%= f.label :skillnum %><br>
+    <%= f.number_field :skillnum %>
+  </div>
+  <div class="field">
+    <%= f.label :hero_id %><br>
+    <%= f.number_field :hero_id %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

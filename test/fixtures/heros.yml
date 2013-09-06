@@ -3,7 +3,13 @@
 one:
   name: MyString
   oftype: MyString
+  faction: MyString
+  melrange: MyString
+  hasguide: false
 
 two:
   name: MyString
   oftype: MyString
+  faction: MyString
+  melrange: MyString
+  hasguide: false

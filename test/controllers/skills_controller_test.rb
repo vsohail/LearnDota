@@ -18,7 +18,7 @@ class SkillsControllerTest < ActionController::TestCase
 
   test "should create skill" do
     assert_difference('Skill.count') do
-      post :create, skill: { description: @skill.description, sname: @skill.sname }
+      post :create, skill: { actpass: @skill.actpass, description: @skill.description, hero_id: @skill.hero_id, skillnum: @skill.skillnum, sname: @skill.sname, ultimate: @skill.ultimate }
     end
 
     assert_redirected_to skill_path(assigns(:skill))
@@ -35,7 +35,7 @@ class SkillsControllerTest < ActionController::TestCase
   end
 
   test "should update skill" do
-    patch :update, id: @skill, skill: { description: @skill.description, sname: @skill.sname }
+    patch :update, id: @skill, skill: { actpass: @skill.actpass, description: @skill.description, hero_id: @skill.hero_id, skillnum: @skill.skillnum, sname: @skill.sname, ultimate: @skill.ultimate }
     assert_redirected_to skill_path(assigns(:skill))
   end
 

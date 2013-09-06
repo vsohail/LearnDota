@@ -5,6 +5,10 @@
     <tr>
       <th>Sname</th>
       <th>Description</th>
+      <th>Actpass</th>
+      <th>Ultimate</th>
+      <th>Skillnum</th>
+      <th>Hero</th>
       <th></th>
       <th></th>
       <th></th>
@@ -16,6 +20,10 @@
       <tr>
         <td><%= skill.sname %></td>
         <td><%= skill.description %></td>
+        <td><%= skill.actpass %></td>
+        <td><%= skill.ultimate %></td>
+        <td><%= skill.skillnum %></td>
+        <td><%= skill.hero_id %></td>
         <td><%= link_to 'Show', skill %></td>
         <td><%= link_to 'Edit', edit_skill_path(skill) %></td>
         <td><%= link_to 'Destroy', skill, method: :delete, data: { confirm: 'Are you sure?' } %></td>

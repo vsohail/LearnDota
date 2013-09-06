@@ -5,7 +5,9 @@
     <tr>
       <th>Name</th>
       <th>Oftype</th>
-      <th>Skills</th>
+      <th>Faction</th>
+      <th>Melrange</th>
+      <th>Hasguide</th>
       <th></th>
       <th></th>
       <th></th>
@@ -17,7 +19,9 @@
       <tr>
         <td><%= hero.name %></td>
         <td><%= hero.oftype %></td>
-        <td><%= hero.allskill %></td>
+        <td><%= hero.faction %></td>
+        <td><%= hero.melrange %></td>
+        <td><%= hero.hasguide %></td>
         <td><%= link_to 'Show', hero %></td>
         <td><%= link_to 'Edit', edit_hero_path(hero) %></td>
         <td><%= link_to 'Destroy', hero, method: :delete, data: { confirm: 'Are you sure?' } %></td>
