@@ -6,30 +6,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130906021429_create_skills.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130906155509_create_users.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130906160157_create_guides.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/heros/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/heros/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/skills/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/skills/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/guide.rb" afterPath="$PROJECT_DIR$/app/models/guide.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/hero.rb" afterPath="$PROJECT_DIR$/app/models/hero.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/hero_test.rb" afterPath="$PROJECT_DIR$/test/models/hero_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/heros.yml" afterPath="$PROJECT_DIR$/test/fixtures/heros.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/heros_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/heros_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/heros_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/heros_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/heros/index.html.erb" afterPath="$PROJECT_DIR$/app/views/heros/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/skills/index.html.erb" afterPath="$PROJECT_DIR$/app/views/skills/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/heros/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/heros/index.json.jbuilder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/skills/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/skills/index.json.jbuilder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/heros/show.html.erb" afterPath="$PROJECT_DIR$/app/views/heros/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/skills/show.html.erb" afterPath="$PROJECT_DIR$/app/views/skills/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/heros/show.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/heros/show.json.jbuilder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/skills/show.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/skills/show.json.jbuilder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/skill_test.rb" afterPath="$PROJECT_DIR$/test/models/skill_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/skills.yml" afterPath="$PROJECT_DIR$/test/fixtures/skills.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/skills_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/skills_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/skills_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/skills_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearnDota.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,10 +40,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="26" selection-start="981" selection-end="981" vertical-scroll-proportion="0.5263158">
+            <state line="23" column="29" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -126,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guide.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="guide.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/guide.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+            <state line="1" column="4" selection-start="37" selection-end="37" vertical-scroll-proportion="0.02851711">
               <folding />
             </state>
           </provider>
@@ -178,10 +155,10 @@
         <option value="$PROJECT_DIR$/db/migrate/20130906021358_create_heros.rb" />
         <option value="$PROJECT_DIR$/app/views/heros/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/hero.rb" />
-        <option value="$PROJECT_DIR$/app/models/guide.rb" />
         <option value="$PROJECT_DIR$/app/models/skill.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/app/models/guide.rb" />
       </list>
     </option>
   </component>
@@ -611,7 +588,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="29" width="1420" height="860" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -621,7 +598,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24575163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24575163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -743,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/guide.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/hero.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="12" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
@@ -801,7 +771,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="981" selection-end="981" vertical-scroll-proportion="0.5263158">
+        <state line="23" column="29" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/guide.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="37" selection-end="37" vertical-scroll-proportion="0.02851711">
           <folding />
         </state>
       </provider>
