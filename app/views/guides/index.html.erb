@@ -1,0 +1,81 @@
+<h1>Listing guides</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Lv1skill</th>
+      <th>Lv2skill</th>
+      <th>Lv3skill</th>
+      <th>Lv4skill</th>
+      <th>Lv5skill</th>
+      <th>Lv6skill</th>
+      <th>Lv7skill</th>
+      <th>Lv8skill</th>
+      <th>Lv9skill</th>
+      <th>Lv10skill</th>
+      <th>Lv11skill</th>
+      <th>Lv12skill</th>
+      <th>Lv13skill</th>
+      <th>Lv14skill</th>
+      <th>Lv15skill</th>
+      <th>Lv16skill</th>
+      <th>Lv17skill</th>
+      <th>Lv18skill</th>
+      <th>Lv19skill</th>
+      <th>Lv20skill</th>
+      <th>Lv21skill</th>
+      <th>Lv22skill</th>
+      <th>Lv23skill</th>
+      <th>Lv24skill</th>
+      <th>Lv25skill</th>
+      <th>Comment</th>
+      <th>User</th>
+      <th>Hero</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @guides.each do |guide| %>
+      <tr>
+        <td><%= guide.lv1skill %></td>
+        <td><%= guide.lv2skill %></td>
+        <td><%= guide.lv3skill %></td>
+        <td><%= guide.lv4skill %></td>
+        <td><%= guide.lv5skill %></td>
+        <td><%= guide.lv6skill %></td>
+        <td><%= guide.lv7skill %></td>
+        <td><%= guide.lv8skill %></td>
+        <td><%= guide.lv9skill %></td>
+        <td><%= guide.lv10skill %></td>
+        <td><%= guide.lv11skill %></td>
+        <td><%= guide.lv12skill %></td>
+        <td><%= guide.lv13skill %></td>
+        <td><%= guide.lv14skill %></td>
+        <td><%= guide.lv15skill %></td>
+        <td><%= guide.lv16skill %></td>
+        <td><%= guide.lv17skill %></td>
+        <td><%= guide.lv18skill %></td>
+        <td><%= guide.lv19skill %></td>
+        <td><%= guide.lv20skill %></td>
+        <td><%= guide.lv21skill %></td>
+        <td><%= guide.lv22skill %></td>
+        <td><%= guide.lv23skill %></td>
+        <td><%= guide.lv24skill %></td>
+        <td><%= guide.lv25skill %></td>
+        <td><%= guide.comment %></td>
+        <td><%= guide.user_id %></td>
+        <td><%= guide.hero_id %></td>
+        <td><%= link_to 'Show', guide %></td>
+        <td><%= link_to 'Edit', edit_guide_path(guide) %></td>
+        <td><%= link_to 'Destroy', guide, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Guide', new_guide_path %>

@@ -11,7 +11,40 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130906021429) do
+ActiveRecord::Schema.define(version: 20130906160157) do
+
+  create_table "guides", force: true do |t|
+    t.integer  "lv1skill"
+    t.integer  "lv2skill"
+    t.integer  "lv3skill"
+    t.integer  "lv4skill"
+    t.integer  "lv5skill"
+    t.integer  "lv6skill"
+    t.integer  "lv7skill"
+    t.integer  "lv8skill"
+    t.integer  "lv9skill"
+    t.integer  "lv10skill"
+    t.integer  "lv11skill"
+    t.integer  "lv12skill"
+    t.integer  "lv13skill"
+    t.integer  "lv14skill"
+    t.integer  "lv15skill"
+    t.integer  "lv16skill"
+    t.integer  "lv17skill"
+    t.integer  "lv18skill"
+    t.integer  "lv19skill"
+    t.integer  "lv20skill"
+    t.integer  "lv21skill"
+    t.integer  "lv22skill"
+    t.integer  "lv23skill"
+    t.integer  "lv24skill"
+    t.integer  "lv25skill"
+    t.string   "comment"
+    t.integer  "user_id"
+    t.integer  "hero_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "heros", force: true do |t|
     t.string   "name"
@@ -24,6 +57,13 @@ ActiveRecord::Schema.define(version: 20130906021429) do
   create_table "skills", force: true do |t|
     t.string   "sname"
     t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", force: true do |t|
+    t.string   "name"
+    t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

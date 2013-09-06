@@ -1,0 +1,129 @@
+<%= form_for(@guide) do |f| %>
+  <% if @guide.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@guide.errors.count, "error") %> prohibited this guide from being saved:</h2>
+
+      <ul>
+      <% @guide.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :lv1skill %><br>
+    <%= f.number_field :lv1skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv2skill %><br>
+    <%= f.number_field :lv2skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv3skill %><br>
+    <%= f.number_field :lv3skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv4skill %><br>
+    <%= f.number_field :lv4skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv5skill %><br>
+    <%= f.number_field :lv5skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv6skill %><br>
+    <%= f.number_field :lv6skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv7skill %><br>
+    <%= f.number_field :lv7skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv8skill %><br>
+    <%= f.number_field :lv8skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv9skill %><br>
+    <%= f.number_field :lv9skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv10skill %><br>
+    <%= f.number_field :lv10skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv11skill %><br>
+    <%= f.number_field :lv11skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv12skill %><br>
+    <%= f.number_field :lv12skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv13skill %><br>
+    <%= f.number_field :lv13skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv14skill %><br>
+    <%= f.number_field :lv14skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv15skill %><br>
+    <%= f.number_field :lv15skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv16skill %><br>
+    <%= f.number_field :lv16skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv17skill %><br>
+    <%= f.number_field :lv17skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv18skill %><br>
+    <%= f.number_field :lv18skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv19skill %><br>
+    <%= f.number_field :lv19skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv20skill %><br>
+    <%= f.number_field :lv20skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv21skill %><br>
+    <%= f.number_field :lv21skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv22skill %><br>
+    <%= f.number_field :lv22skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv23skill %><br>
+    <%= f.number_field :lv23skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv24skill %><br>
+    <%= f.number_field :lv24skill %>
+  </div>
+  <div class="field">
+    <%= f.label :lv25skill %><br>
+    <%= f.number_field :lv25skill %>
+  </div>
+  <div class="field">
+    <%= f.label :comment %><br>
+    <%= f.text_field :comment %>
+  </div>
+  <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.number_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :hero_id %><br>
+    <%= f.number_field :hero_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

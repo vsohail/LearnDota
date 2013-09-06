@@ -1,0 +1,61 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  lv1skill: 1
+  lv2skill: 1
+  lv3skill: 1
+  lv4skill: 1
+  lv5skill: 1
+  lv6skill: 1
+  lv7skill: 1
+  lv8skill: 1
+  lv9skill: 1
+  lv10skill: 1
+  lv11skill: 1
+  lv12skill: 1
+  lv13skill: 1
+  lv14skill: 1
+  lv15skill: 1
+  lv16skill: 1
+  lv17skill: 1
+  lv18skill: 1
+  lv19skill: 1
+  lv20skill: 1
+  lv21skill: 1
+  lv22skill: 1
+  lv23skill: 1
+  lv24skill: 1
+  lv25skill: 1
+  comment: MyString
+  user_id: 1
+  hero_id: 1
+
+two:
+  lv1skill: 1
+  lv2skill: 1
+  lv3skill: 1
+  lv4skill: 1
+  lv5skill: 1
+  lv6skill: 1
+  lv7skill: 1
+  lv8skill: 1
+  lv9skill: 1
+  lv10skill: 1
+  lv11skill: 1
+  lv12skill: 1
+  lv13skill: 1
+  lv14skill: 1
+  lv15skill: 1
+  lv16skill: 1
+  lv17skill: 1
+  lv18skill: 1
+  lv19skill: 1
+  lv20skill: 1
+  lv21skill: 1
+  lv22skill: 1
+  lv23skill: 1
+  lv24skill: 1
+  lv25skill: 1
+  comment: MyString
+  user_id: 1
+  hero_id: 1
