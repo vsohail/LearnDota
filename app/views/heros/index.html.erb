@@ -1,0 +1,31 @@
+<h1>Listing heros</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Oftype</th>
+      <th>Skills</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @heros.each do |hero| %>
+      <tr>
+        <td><%= hero.name %></td>
+        <td><%= hero.oftype %></td>
+        <td><%= hero.allskill %></td>
+        <td><%= link_to 'Show', hero %></td>
+        <td><%= link_to 'Edit', edit_hero_path(hero) %></td>
+        <td><%= link_to 'Destroy', hero, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Hero', new_hero_path %>
