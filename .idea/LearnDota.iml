@@ -26,7 +26,7 @@
     <orderEntry type="library" scope="PROVIDED" name="arel (v4.0.0, RVM: ruby-2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="atomic (v1.1.13, RVM: ruby-2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.1.4, RVM: ruby-2.0.0-p247) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.3.5, RVM: ruby-2.0.0-p247) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.4.0.pre.2, RVM: ruby-2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.0.0, RVM: ruby-2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.3, RVM: ruby-2.0.0-p247) [gem]" level="application" />
