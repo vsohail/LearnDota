@@ -1,13 +1,12 @@
-<h1>Listing heros</h1>
+<h1>LearnDota</h1>
 
 <table>
   <thead>
     <tr>
       <th>Name</th>
-      <th>Oftype</th>
+      <th>Type</th>
       <th>Faction</th>
-      <th>Melrange</th>
-      <th>Hasguide</th>
+      <th>Melee/Range</th>
       <th></th>
       <th></th>
       <th></th>
@@ -17,19 +16,13 @@
   <tbody>
     <% @heros.each do |hero| %>
       <tr>
-        <td><%= hero.name %></td>
+        <td><%= link_to hero.name, hero %></td>
         <td><%= hero.oftype %></td>
         <td><%= hero.faction %></td>
         <td><%= hero.melrange %></td>
-        <td><%= hero.hasguide %></td>
-        <td><%= link_to 'Show', hero %></td>
-        <td><%= link_to 'Edit', edit_hero_path(hero) %></td>
-        <td><%= link_to 'Destroy', hero, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-
-<%= link_to 'New Hero', new_hero_path %>

@@ -6,7 +6,7 @@
 </p>
 
 <p>
-  <strong>Oftype:</strong>
+  <strong>Type:</strong>
   <%= @hero.oftype %>
 </p>
 
@@ -16,14 +16,30 @@
 </p>
 
 <p>
-  <strong>Melrange:</strong>
+  <strong>Melee/Range:</strong>
   <%= @hero.melrange %>
 </p>
+<p>
+  <strong>Skills:</strong>
+  <ul>
+  <% @hero.skills.each do |skill| %>
+    <p>
+     <li>Skill <%==skill.skillnum%>: <%= skill.sname%> <% if skill.ultimate == 1 %><em>(Ultimate)</em><% end %>
+       <ul><li><%==skill.description%></ul>
+    </p>
+<% end %>
+    <% if @hero.skills.size == 0 %>
+        <em>No skills found.Will be added shortly</em>
+    <% end %>
+   </ul>
+</p>
+    <% if @hero.guides.size == 0 %>
+        <em>Click here to add a guide</em>
+    <% else %>
+        <strong><em>Guides</em></strong>
+    <% end %>
 
 <p>
-  <strong>Hasguide:</strong>
-  <%= @hero.hasguide %>
-</p>
 
-<%= link_to 'Edit', edit_hero_path(@hero) %> |
+</p>
 <%= link_to 'Back', heros_path %>
