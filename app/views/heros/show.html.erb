@@ -34,9 +34,14 @@
    </ul>
 </p>
     <% if @hero.guides.size == 0 %>
-        <em>Click here to add a guide</em>
+        <em><%= link_to 'Click here to add a guide', new_guide_path %></em>
     <% else %>
-        <strong><em>Guides</em></strong>
+        <% @hero.guides.each do |guide| %>
+            <p>
+            <li><strong><em><%= link_to 'Guide', guide %> <%==guide.id%></em></strong>
+            </p>
+        <% end %>
+
     <% end %>
 
 <p>
