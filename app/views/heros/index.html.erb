@@ -1,15 +1,13 @@
-<h1>LearnDota</h1>
+<h1>Listing heros</h1>
 
 <table>
   <thead>
     <tr>
       <th>Name</th>
-      <th>Type</th>
+      <th>Oftype</th>
       <th>Faction</th>
-      <th>Melee/Range</th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th>Melrange</th>
+      <th>Hasguide</th>
     </tr>
   </thead>
 
@@ -20,6 +18,7 @@
         <td><%= hero.oftype %></td>
         <td><%= hero.faction %></td>
         <td><%= hero.melrange %></td>
+        <td><%= hero.hasguide %></td>
       </tr>
     <% end %>
   </tbody>

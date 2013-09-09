@@ -21,30 +21,34 @@
 </p>
 <p>
   <strong>Skills:</strong>
-  <ul>
+<ul>
   <% @hero.skills.each do |skill| %>
-    <p>
-     <li>Skill <%==skill.skillnum%>: <%= skill.sname%> <% if skill.ultimate == 1 %><em>(Ultimate)</em><% end %>
-       <ul><li><%==skill.description%></ul>
-    </p>
-<% end %>
-    <% if @hero.skills.size == 0 %>
-        <em>No skills found.Will be added shortly</em>
-    <% end %>
-   </ul>
-</p>
-    <% if @hero.guides.size == 0 %>
-        <em><%= link_to 'Click here to add a guide', new_guide_path %></em>
-    <% else %>
-        <% @hero.guides.each do |guide| %>
-            <p>
-            <li><strong><em><%= link_to 'Guide', guide %> <%==guide.id%></em></strong>
-            </p>
+      <p>
+      <li>Skill <%== skill.skillnum %>: <%= skill.sname %>
+        <% if skill.ultimate == 1 %>
+            <em>(Ultimate)</em>
         <% end %>
+        <ul>
+          <li><%== skill.description %></ul>
+      </p>
+  <% end %>
+  <% if @hero.skills.size == 0 %>
+      <em>No skills found.Will be added shortly</em>
+  <% end %>
+  </ul>
+  </p>
+  <% if @hero.guides.size == 0 %>
+      <em><%= link_to 'Click here to add a guide', new_guide_path %></em>
+  <% else %>
+      <% @hero.guides.each do |guide| %>
+          <p>
+          <li><strong><em><%= link_to 'Guide', guide %> <%== guide.id %></em></strong>
+          </p>
+      <% end %>
 
-    <% end %>
+  <% end %>
 
-<p>
+  <p>
 
-</p>
-<%= link_to 'Back', heros_path %>
+  </p>
+  <%= link_to 'Back', heros_path %>

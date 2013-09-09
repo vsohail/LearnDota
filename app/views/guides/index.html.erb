@@ -2,43 +2,41 @@
 
 <table>
   <thead>
-    <tr>
-      <th>Lv1skill</th>
-      <th>Lv2skill</th>
-      <th>Lv3skill</th>
-      <th>Lv4skill</th>
-      <th>Lv5skill</th>
-      <th>Lv6skill</th>
-      <th>Lv7skill</th>
-      <th>Lv8skill</th>
-      <th>Lv9skill</th>
-      <th>Lv10skill</th>
-      <th>Lv11skill</th>
-      <th>Lv12skill</th>
-      <th>Lv13skill</th>
-      <th>Lv14skill</th>
-      <th>Lv15skill</th>
-      <th>Lv16skill</th>
-      <th>Lv17skill</th>
-      <th>Lv18skill</th>
-      <th>Lv19skill</th>
-      <th>Lv20skill</th>
-      <th>Lv21skill</th>
-      <th>Lv22skill</th>
-      <th>Lv23skill</th>
-      <th>Lv24skill</th>
-      <th>Lv25skill</th>
-      <th>Comment</th>
-      <th>User</th>
-      <th>Hero</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
+  <tr>
+    <th>Lv1skill</th>
+    <th>Lv2skill</th>
+    <th>Lv3skill</th>
+    <th>Lv4skill</th>
+    <th>Lv5skill</th>
+    <th>Lv6skill</th>
+    <th>Lv7skill</th>
+    <th>Lv8skill</th>
+    <th>Lv9skill</th>
+    <th>Lv10skill</th>
+    <th>Lv11skill</th>
+    <th>Lv12skill</th>
+    <th>Lv13skill</th>
+    <th>Lv14skill</th>
+    <th>Lv15skill</th>
+    <th>Lv16skill</th>
+    <th>Lv17skill</th>
+    <th>Lv18skill</th>
+    <th>Lv19skill</th>
+    <th>Lv20skill</th>
+    <th>Lv21skill</th>
+    <th>Lv22skill</th>
+    <th>Lv23skill</th>
+    <th>Lv24skill</th>
+    <th>Lv25skill</th>
+    <th>Comment</th>
+    <th>User</th>
+    <th>Hero</th>
+    <th></th>
+  </tr>
   </thead>
 
   <tbody>
-    <% @guides.each do |guide| %>
+  <% @guides.each do |guide| %>
       <tr>
         <td><%= guide.lv1skill %></td>
         <td><%= guide.lv2skill %></td>
@@ -70,7 +68,7 @@
         <td><%= guide.hero_id %></td>
         <td><%= link_to 'Show', guide %></td>
       </tr>
-    <% end %>
+  <% end %>
   </tbody>
 </table>
 
