@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e03924fb-ee37-42ce-be67-b13dcb6b8193" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/heros/show.html.erb" afterPath="$PROJECT_DIR$/app/views/heros/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearnDota.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,14 +17,15 @@
     <file path="/skill.rb" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378495810732" ignored="false" />
     <file path="/seeds.rb" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378791536848" ignored="false" />
     <file path="/20130906021358_create_heros.rb" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378435994714" ignored="false" />
-    <file path="/index.html.erb" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378793984003" ignored="false" />
+    <file path="/index.html.erb" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378797269624" ignored="false" />
     <file path="/user.rb" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378495823700" ignored="false" />
     <file path="/guide.rb" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378523790360" ignored="false" />
     <file path="/routes.rb" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378525411198" ignored="false" />
-    <file path="/show.html.erb" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378612709067" ignored="false" />
+    <file path="/show.html.erb" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378798174835" ignored="false" />
     <file path="/guides_controller.rb" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378612424135" ignored="false" />
     <file path="/application.html.erb" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378784162591" ignored="false" />
     <file path="/bootstrap.css" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378785574518" ignored="false" />
+    <file path="/Gemfile" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378796515469" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +53,19 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="44" selection-start="1368" selection-end="1368" vertical-scroll-proportion="-11.416667">
+            <state line="49" column="31" selection-start="1482" selection-end="1482" vertical-scroll-proportion="-14.125">
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/heros/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="75" selection-start="898" selection-end="945" vertical-scroll-proportion="-15.125">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,19 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/heros/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="84" selection-start="139" selection-end="139" vertical-scroll-proportion="-3.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="38" selection-start="259" selection-end="259" vertical-scroll-proportion="0.3409091">
+            <state line="6" column="68" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/heros/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="38" selection-start="450" selection-end="450" vertical-scroll-proportion="-5.1666665">
+            <state line="24" column="22" selection-start="802" selection-end="802" vertical-scroll-proportion="0.71428573">
               <folding />
             </state>
           </provider>
@@ -146,14 +150,14 @@
         <option value="$PROJECT_DIR$/app/models/skill.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/guides/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/heros/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/heros/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/guides/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/heros/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/heros/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/heros/show.html.erb" />
       </list>
     </option>
   </component>
@@ -796,13 +800,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6810089" sideWeight="0.75804377" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24892396" sideWeight="0.6710354" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23027259" sideWeight="0.74517375" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23027259" sideWeight="0.74517375" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -904,13 +908,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4283" column="30" selection-start="87723" selection-end="87723" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/heros/index.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -944,29 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="44" selection-start="1368" selection-end="1368" vertical-scroll-proportion="-11.416667">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/heros/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="38" selection-start="450" selection-end="450" vertical-scroll-proportion="-5.1666665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/heros/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="84" selection-start="139" selection-end="139" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/heros/show.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -976,7 +950,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="259" selection-end="259" vertical-scroll-proportion="0.3409091">
+        <state line="6" column="68" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="31" selection-start="1482" selection-end="1482" vertical-scroll-proportion="-14.125">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4283" column="30" selection-start="87723" selection-end="87723" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/heros/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="75" selection-start="898" selection-end="945" vertical-scroll-proportion="-15.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/heros/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="22" selection-start="802" selection-end="802" vertical-scroll-proportion="0.71428573">
           <folding />
         </state>
       </provider>

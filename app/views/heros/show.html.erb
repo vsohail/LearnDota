@@ -1,54 +1,64 @@
+<div class="row">
+  <div class="col-lg-3">
+    <div class="panel panel-default">
+      <div class="panel-heading"><%= @hero.name %></div>
+      <div class="panel-body">
+        <%= image_tag(@hero.name+".jpg", :class => "thumbnail") %>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">Guide</div>
+      <div class="panel-body">
+        </p>
+        <% if @hero.guides.size == 0 %>
+            <em><%= link_to 'Click here to add a guide', new_guide_path %></em>
+        <% else %>
+            <% @hero.guides.each do |guide| %>
+                <p>
+                <li><strong><em><%= link_to 'Guide', guide %> <%== guide.id %></em></strong>
+                </p>
+            <% end %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-9">
+    <div class="panel panel-default">
+      <div class="panel-heading">Stats</div>
+      <div class="panel-body">
+        <p>
+          <strong>Type:</strong>
+          <%= @hero.oftype %>
+        </p>
+        <p>
+          <strong>Faction:</strong>
+          <%= @hero.faction %>
+        </p>
+        <p>
+          <strong>Melee/Range:</strong>
+          <%= @hero.melrange %>
+        </p>
+
+        <p>
+          <strong>Skills:</strong>
+        <ul>
+          <% @hero.skills.each do |skill| %>
+              <p>
+              <li>Skill <%== skill.skillnum %>: <%= skill.sname %>
+                <% if skill.ultimate == 1 %>
+                    <em>(Ultimate)</em>
+                <% end %>
+                <ul>
+                  <li><%== skill.description %></ul>
+              </p>
+          <% end %>
+          <% if @hero.skills.size == 0 %>
+              <em>No skills found.Will be added shortly</em>
+          <% end %>
+          </ul>
+          </div>
+    </div>
+  </div>
+</div>
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @hero.name %>
-</p>
-
-<p>
-  <strong>Type:</strong>
-  <%= @hero.oftype %>
-</p>
-
-<p>
-  <strong>Faction:</strong>
-  <%= @hero.faction %>
-</p>
-
-<p>
-  <strong>Melee/Range:</strong>
-  <%= @hero.melrange %>
-</p>
-<p>
-  <strong>Skills:</strong>
-<ul>
-  <% @hero.skills.each do |skill| %>
-      <p>
-      <li>Skill <%== skill.skillnum %>: <%= skill.sname %>
-        <% if skill.ultimate == 1 %>
-            <em>(Ultimate)</em>
-        <% end %>
-        <ul>
-          <li><%== skill.description %></ul>
-      </p>
-  <% end %>
-  <% if @hero.skills.size == 0 %>
-      <em>No skills found.Will be added shortly</em>
-  <% end %>
-  </ul>
-  </p>
-  <% if @hero.guides.size == 0 %>
-      <em><%= link_to 'Click here to add a guide', new_guide_path %></em>
-  <% else %>
-      <% @hero.guides.each do |guide| %>
-          <p>
-          <li><strong><em><%= link_to 'Guide', guide %> <%== guide.id %></em></strong>
-          </p>
-      <% end %>
-
-  <% end %>
-
-  <p>
-
-  </p>
-  <%= link_to 'Back', heros_path %>
