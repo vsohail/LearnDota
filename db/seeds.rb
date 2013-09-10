@@ -18,7 +18,6 @@ Hero.create(name: 'Admiral Kunka',oftype: 'Strength',faction: 'Radiant',melrange
 Hero.create(name: 'Natures Prophet',oftype: 'Intelligence',faction: 'Radiant',melrange:'Range',hasguide: 0)
 Hero.create(name: 'Phantom Assassin',oftype: 'Agility',faction: 'Dire',melrange: 'Melee',hasguide: 0)
 Hero.create(name: 'Templar Assassin',oftype: 'Agility',faction: 'Dire',melrange:'Range',hasguide: 0)
-Hero.create(name: 'Drow Ranger',oftype: 'Agility' ,faction: 'Dire',melrange: 'Range',hasguide: 0)
 
 
 
