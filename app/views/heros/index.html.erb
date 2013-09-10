@@ -1,10 +1,11 @@
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3>Heros</h3>
+    <h3>Strength</h3>
   </div>
 <div class="panel-body">
   <div class="row">
     <% @heros.each do |hero| %>
+        <% if hero.oftype=="Strength" %>
             <div class="col-xs-6 col-md-4">
                 <%= link_to image_tag(hero.name+".jpg",:class=>"thumbnail"),hero%>
               <h4><%= hero.name %></h4>
@@ -14,8 +15,52 @@
                 <%= hero.oftype %> |
               </p>
             </div>
+        <%end%>
     <% end %>
     </div>
 </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3>Agility</h3>
   </div>
-<br>
+  <div class="panel-body">
+    <div class="row">
+      <% @heros.each do |hero| %>
+          <% if hero.oftype=="Agility" %>
+              <div class="col-xs-6 col-md-4">
+                <%= link_to image_tag(hero.name+".jpg",:class=>"thumbnail"),hero%>
+                <h4><%= hero.name %></h4>
+                <p>
+                  <%= hero.faction %> |
+                  <%= hero.melrange %> |
+                  <%= hero.oftype %> |
+                </p>
+              </div>
+          <%end%>
+      <% end %>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3>Intelligence</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <% @heros.each do |hero| %>
+          <% if hero.oftype=="Intelligence" %>
+              <div class="col-xs-6 col-md-4">
+                <%= link_to image_tag(hero.name+".jpg",:class=>"thumbnail"),hero%>
+                <h4><%= hero.name %></h4>
+                <p>
+                  <%= hero.faction %> |
+                  <%= hero.melrange %> |
+                  <%= hero.oftype %> |
+                </p>
+              </div>
+          <%end%>
+      <% end %>
+    </div>
+  </div>
+</div>
