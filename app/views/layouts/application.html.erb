@@ -2,15 +2,54 @@
 <html>
 <head>
   <title>LearnDota</title>
-  <%= stylesheet_link_tag    "bootstrap" %>
-  <%= javascript_include_tag "bootstrap" %>
+  <style>
+      body{
+          padding-top:70px;
+      }
+  </style>
+  <%= stylesheet_link_tag "bootstrap" %>
+  <%= javascript_include_tag "bootstrap" "jquery"%>
   <%= csrf_meta_tags %>
-  <div class="">
-  </div>
 </head>
-<body>
+<body style>
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">LearnDota</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Heros</a></li>
+        <li><a href="#guides">Guides</a></li>
+      </ul>
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" placeholder="Email" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="Password" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-success">Sign in</button>
+        <button type="submit" class="btn btn-danger">Sign up</button>
+      </form>
+    </div><!--/.navbar-collapse -->
+  </div>
+</div>
+  <section>
+    <div class="jumbotron" style="margin-top:-20px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-12">
+            <h1>Learn Dota</h1>
+            <p>Your destination for the best Dota rosters and guides.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<%= yield %>
-
+    <div class="container">
+      <%= yield %>
+    </div>
+  </section>
 </body>
 </html>

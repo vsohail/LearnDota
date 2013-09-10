@@ -7,10 +7,18 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-Skill.create(sname: 'Rupture', description: 'Deals a mighty blow to the enemy causing any movement to result in bleeding and loss of life.',actpass: 1,ultimate: 1,skillnum: 4,hero_id: 2)
-Skill.create(sname: 'Meat Hook', description: 'Launches a bloody hook at a unit or location. The hook will snag the first target it encounters, dealing damage then dragging the victim back to the Butcher.',actpass: 1,ultimate: 0,skillnum: 1,hero_id: 1)
-Hero.create(name: 'Pudge',oftype: 'Strength',faction: 'Radiant',melrange: 'Melee',hasguide: 0)
-Hero.create(name: 'Bloodseeker',oftype: 'Agility',faction: 'Dire',melrange:'Range',hasguide: 0)
+
+Hero.create(name: 'Lina',oftype: 'Intelligence',faction: 'Dire',melrange: 'Range',hasguide: 0)
+Hero.create(name: 'Crystal Maiden',oftype: 'Intelligence',faction: 'Radiant',melrange:'Range',hasguide: 0)
+Hero.create(name: 'Outworld Destroyer',oftype: 'Intelligence',faction: 'Dire',melrange: 'Range',hasguide: 0)
+Hero.create(name: 'Juggernaut',oftype: 'Agility',faction: 'Dire',melrange:'Melee',hasguide: 0)
+Hero.create(name: 'Bounty Hunter',oftype: 'Agility',faction: 'Dire',melrange: 'Melee',hasguide: 0)
+Hero.create(name: 'Chaos Knight',oftype: 'Strength',faction: 'Dire',melrange:'Melee',hasguide: 0)
+Hero.create(name: 'Admiral Kunka',oftype: 'Strength',faction: 'Radiant',melrange: 'Melee',hasguide: 0)
+Hero.create(name: 'Natures Prophet',oftype: 'Intelligence',faction: 'Radiant',melrange:'Range',hasguide: 0)
+Hero.create(name: 'Phantom Assassin',oftype: 'Agility',faction: 'Dire',melrange: 'Melee',hasguide: 0)
+Hero.create(name: 'Templar Assassin',oftype: 'Agility',faction: 'Dire',melrange:'Range',hasguide: 0)
+Hero.create(name: 'Drow Ranger',oftype: 'Agility' ,faction: 'Dire',melrange: 'Range',hasguide: 0)
 
 
 
