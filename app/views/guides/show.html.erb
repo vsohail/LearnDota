@@ -1,144 +1,154 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Lv1skill:</strong>
-  <%= @guide.lv1skill %>
+<div class="row">
+  <div class="col-lg-3">
+    <div class="panel panel-default">
+      <div class="panel-heading">Skill Build[Early]
+      </div>
+      <div class="panel-body">
+          <div class="form-group">
+            <label for="guide_lv1skill">Skill 1:  <%= @guide.lv1skill %></label>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="guide_lv2skill">Skill 2:  <%= @guide.lv2skill %></label>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="guide_lv3skill">Skill 3:  <%= @guide.lv3skill %></label>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="guide_lv4skill">Skill 4:  <%= @guide.lv4skill %></label>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="guide_lv5skill">Skill 5:  <%= @guide.lv5skill %></label>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="guide_lv6skill">Skill 6:  <%= @guide.lv6skill %></label>
+            <br>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="panel panel-default">
+      <div class="panel-heading">Skill Build[Mid]
+      </div>
+      <div class="panel-body">
+        <div class="form-group">
+          <label for="guide_lv1skill">Skill 7:  <%= @guide.lv7skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv2skill">Skill 8:  <%= @guide.lv8skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv3skill">Skill 9:  <%= @guide.lv9skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv4skill">Skill 10:  <%= @guide.lv10skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv5skill">Skill 11:  <%= @guide.lv11skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv6skill">Skill 12:  <%= @guide.lv12skill %></label>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+  <div class="panel panel-default">
+    <div class="panel-heading">Skill Build[Early]
+    </div>
+    <div class="panel-body">
+      <div class="form-group">
+        <label for="guide_lv1skill">Skill 13:  <%= @guide.lv13skill %></label>
+        <br>
+      </div>
+      <div class="form-group">
+        <label for="guide_lv2skill">Skill 14:  <%= @guide.lv14skill %></label>
+        <br>
+      </div>
+      <div class="form-group">
+        <label for="guide_lv3skill">Skill 15:  <%= @guide.lv15skill %></label>
+        <br>
+      </div>
+      <div class="form-group">
+        <label for="guide_lv4skill">Skill 16:  <%= @guide.lv16skill %></label>
+        <br>
+      </div>
+      <div class="form-group">
+        <label for="guide_lv5skill">Skill 17:  <%= @guide.lv17skill %></label>
+        <br>
+      </div>
+      <div class="form-group">
+        <label for="guide_lv6skill">Skill 18:  <%= @guide.lv18skill %></label>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="col-lg-3">
+    <div class="panel panel-default">
+      <div class="panel-heading">Skill Build[Late]
+      </div>
+      <div class="panel-body">
+        <div class="form-group">
+          <label for="guide_lv1skill">Skill 19:  <%= @guide.lv19skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv2skill">Skill 20:  <%= @guide.lv20skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv3skill">Skill 21:  <%= @guide.lv21skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv4skill">Skill 22:  <%= @guide.lv22skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv5skill">Skill 23:  <%= @guide.lv23skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv6skill">Skill 24:  <%= @guide.lv24skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv6skill">Skill 25:  <%= @guide.lv25skill %></label>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-9">
+    <div class="panel panel-default">
+      <div class="panel-heading">Guide
+      </div>
+      <div class="panel-body">
+       <textarea readonly style="width: 100%" rows="10"> <%= @guide.comment %> </textarea>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="panel panel-default">
+      <div class="panel-heading"><%= @guide.hero.name %></div>
+      <div class="panel-body">
+        <%= image_tag(@guide.hero.name+".jpg", :class => "thumbnail") %>
+      </div>
+    </div>
+  </div>
+</div>
 </p>
-
-<p>
-  <strong>Lv2skill:</strong>
-  <%= @guide.lv2skill %>
-</p>
-
-<p>
-  <strong>Lv3skill:</strong>
-  <%= @guide.lv3skill %>
-</p>
-
-<p>
-  <strong>Lv4skill:</strong>
-  <%= @guide.lv4skill %>
-</p>
-
-<p>
-  <strong>Lv5skill:</strong>
-  <%= @guide.lv5skill %>
-</p>
-
-<p>
-  <strong>Lv6skill:</strong>
-  <%= @guide.lv6skill %>
-</p>
-
-<p>
-  <strong>Lv7skill:</strong>
-  <%= @guide.lv7skill %>
-</p>
-
-<p>
-  <strong>Lv8skill:</strong>
-  <%= @guide.lv8skill %>
-</p>
-
-<p>
-  <strong>Lv9skill:</strong>
-  <%= @guide.lv9skill %>
-</p>
-
-<p>
-  <strong>Lv10skill:</strong>
-  <%= @guide.lv10skill %>
-</p>
-
-<p>
-  <strong>Lv11skill:</strong>
-  <%= @guide.lv11skill %>
-</p>
-
-<p>
-  <strong>Lv12skill:</strong>
-  <%= @guide.lv12skill %>
-</p>
-
-<p>
-  <strong>Lv13skill:</strong>
-  <%= @guide.lv13skill %>
-</p>
-
-<p>
-  <strong>Lv14skill:</strong>
-  <%= @guide.lv14skill %>
-</p>
-
-<p>
-  <strong>Lv15skill:</strong>
-  <%= @guide.lv15skill %>
-</p>
-
-<p>
-  <strong>Lv16skill:</strong>
-  <%= @guide.lv16skill %>
-</p>
-
-<p>
-  <strong>Lv17skill:</strong>
-  <%= @guide.lv17skill %>
-</p>
-
-<p>
-  <strong>Lv18skill:</strong>
-  <%= @guide.lv18skill %>
-</p>
-
-<p>
-  <strong>Lv19skill:</strong>
-  <%= @guide.lv19skill %>
-</p>
-
-<p>
-  <strong>Lv20skill:</strong>
-  <%= @guide.lv20skill %>
-</p>
-
-<p>
-  <strong>Lv21skill:</strong>
-  <%= @guide.lv21skill %>
-</p>
-
-<p>
-  <strong>Lv22skill:</strong>
-  <%= @guide.lv22skill %>
-</p>
-
-<p>
-  <strong>Lv23skill:</strong>
-  <%= @guide.lv23skill %>
-</p>
-
-<p>
-  <strong>Lv24skill:</strong>
-  <%= @guide.lv24skill %>
-</p>
-
-<p>
-  <strong>Lv25skill:</strong>
-  <%= @guide.lv25skill %>
-</p>
-
-<p>
-  <strong>Comment:</strong>
-  <%= @guide.comment %>
-</p>
-
-<p>
-  <strong>User:</strong>
-  <%= @guide.user_id %>
-</p>
-
-<p>
-  <strong>Hero:</strong>
-  <%= @guide.hero_id %>
-</p>
-
-<%= link_to 'Edit', edit_guide_path(@guide) %> |
-<%= link_to 'Back', guides_path %>

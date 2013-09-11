@@ -10,12 +10,11 @@
       <div class="panel-heading">Guide</div>
       <div class="panel-body">
         </p>
-        <% if @hero.guides.size == 0 %>
             <em><%= link_to 'Click here to add a guide', new_guide_path %></em>
-        <% else %>
+        <% if @hero.guides.size != 0 %>
             <% @hero.guides.each do |guide| %>
                 <p>
-                <li><strong><em><%= link_to 'Guide', guide %> <%== guide.id %></em></strong>
+                <li><strong><em><%= link_to 'Guide', guide %> by <%== guide.user_id %></em></strong>
                 </p>
             <% end %>
         <% end %>
@@ -53,7 +52,7 @@
               </p>
           <% end %>
           <% if @hero.skills.size == 0 %>
-              <em>No skills found.Will be added shortly</em>
+              <em class="alert-danger">No skills found.Will be added shortly</em>
           <% end %>
           </ul>
           </div>

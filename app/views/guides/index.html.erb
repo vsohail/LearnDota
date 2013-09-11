@@ -1,77 +1,163 @@
-<h1>Listing guides</h1>
-
-<table>
-  <thead>
-  <tr>
-    <th>Lv1skill</th>
-    <th>Lv2skill</th>
-    <th>Lv3skill</th>
-    <th>Lv4skill</th>
-    <th>Lv5skill</th>
-    <th>Lv6skill</th>
-    <th>Lv7skill</th>
-    <th>Lv8skill</th>
-    <th>Lv9skill</th>
-    <th>Lv10skill</th>
-    <th>Lv11skill</th>
-    <th>Lv12skill</th>
-    <th>Lv13skill</th>
-    <th>Lv14skill</th>
-    <th>Lv15skill</th>
-    <th>Lv16skill</th>
-    <th>Lv17skill</th>
-    <th>Lv18skill</th>
-    <th>Lv19skill</th>
-    <th>Lv20skill</th>
-    <th>Lv21skill</th>
-    <th>Lv22skill</th>
-    <th>Lv23skill</th>
-    <th>Lv24skill</th>
-    <th>Lv25skill</th>
-    <th>Comment</th>
-    <th>User</th>
-    <th>Hero</th>
-    <th></th>
-  </tr>
-  </thead>
-
-  <tbody>
+<div class="row">
   <% @guides.each do |guide| %>
-      <tr>
-        <td><%= guide.lv1skill %></td>
-        <td><%= guide.lv2skill %></td>
-        <td><%= guide.lv3skill %></td>
-        <td><%= guide.lv4skill %></td>
-        <td><%= guide.lv5skill %></td>
-        <td><%= guide.lv6skill %></td>
-        <td><%= guide.lv7skill %></td>
-        <td><%= guide.lv8skill %></td>
-        <td><%= guide.lv9skill %></td>
-        <td><%= guide.lv10skill %></td>
-        <td><%= guide.lv11skill %></td>
-        <td><%= guide.lv12skill %></td>
-        <td><%= guide.lv13skill %></td>
-        <td><%= guide.lv14skill %></td>
-        <td><%= guide.lv15skill %></td>
-        <td><%= guide.lv16skill %></td>
-        <td><%= guide.lv17skill %></td>
-        <td><%= guide.lv18skill %></td>
-        <td><%= guide.lv19skill %></td>
-        <td><%= guide.lv20skill %></td>
-        <td><%= guide.lv21skill %></td>
-        <td><%= guide.lv22skill %></td>
-        <td><%= guide.lv23skill %></td>
-        <td><%= guide.lv24skill %></td>
-        <td><%= guide.lv25skill %></td>
-        <td><%= guide.comment %></td>
-        <td><%= guide.user_id %></td>
-        <td><%= guide.hero_id %></td>
-        <td><%= link_to 'Show', guide %></td>
-      </tr>
-  <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Guide', new_guide_path %>
+  <div class="panel panel-default">
+  <div class="panel-heading"><%=guide.hero.name %>
+  </div>
+  <div class="panel-body">
+  <div class="row">
+  <div class="col-lg-3">
+    <div class="panel panel-default">
+      <div class="panel-heading">Skill Build[Early]
+      </div>
+      <div class="panel-body">
+        <div class="form-group">
+          <label for="guide_lv1skill">Skill 1:  <%= guide.lv1skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv2skill">Skill 2:  <%= guide.lv2skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv3skill">Skill 3:  <%= guide.lv3skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv4skill">Skill 4:  <%= guide.lv4skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv5skill">Skill 5:  <%= guide.lv5skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv6skill">Skill 6:  <%= guide.lv6skill %></label>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="panel panel-default">
+      <div class="panel-heading">Skill Build[Mid]
+      </div>
+      <div class="panel-body">
+        <div class="form-group">
+          <label for="guide_lv1skill">Skill 7:  <%= guide.lv7skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv2skill">Skill 8:  <%= guide.lv8skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv3skill">Skill 9:  <%= guide.lv9skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv4skill">Skill 10:  <%= guide.lv10skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv5skill">Skill 11:  <%= guide.lv11skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv6skill">Skill 12:  <%= guide.lv12skill %></label>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="panel panel-default">
+      <div class="panel-heading">Skill Build[Early]
+      </div>
+      <div class="panel-body">
+        <div class="form-group">
+          <label for="guide_lv1skill">Skill 13:  <%= guide.lv13skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv2skill">Skill 14:  <%= guide.lv14skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv3skill">Skill 15:  <%= guide.lv15skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv4skill">Skill 16:  <%= guide.lv16skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv5skill">Skill 17:  <%= guide.lv17skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv6skill">Skill 18:  <%= guide.lv18skill %></label>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="panel panel-default">
+      <div class="panel-heading">Skill Build[Late]
+      </div>
+      <div class="panel-body">
+        <div class="form-group">
+          <label for="guide_lv1skill">Skill 19:  <%= guide.lv19skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv2skill">Skill 20:  <%= guide.lv20skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv3skill">Skill 21:  <%= guide.lv21skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv4skill">Skill 22:  <%= guide.lv22skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv5skill">Skill 23:  <%= guide.lv23skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv6skill">Skill 24:  <%= guide.lv24skill %></label>
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="guide_lv6skill">Skill 25:  <%= guide.lv25skill %></label>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row">
+  <div class="col-lg-9">
+    <div class="panel panel-default">
+      <div class="panel-heading">Guide
+      </div>
+      <div class="panel-body">
+        <textarea readonly style="width: 100%" rows="13"> <%= guide.comment %> </textarea>
+      </div>
+    </div>
+  </div>
+    <div class="col-lg-3">
+      <div class="panel panel-default">
+        <div class="panel-heading"><%= guide.hero.name %></div>
+        <div class="panel-body">
+          <%= image_tag(guide.hero.name+".jpg", :class => "thumbnail") %>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+  <%end%>
+</div>
