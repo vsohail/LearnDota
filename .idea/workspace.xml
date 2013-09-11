@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e03924fb-ee37-42ce-be67-b13dcb6b8193" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/guides/index.html.erb" afterPath="$PROJECT_DIR$/app/views/guides/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/guides/new.html.erb" afterPath="$PROJECT_DIR$/app/views/guides/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/guides/show.html.erb" afterPath="$PROJECT_DIR$/app/views/guides/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/heros/show.html.erb" afterPath="$PROJECT_DIR$/app/views/heros/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
     </list>
     <ignored path="LearnDota.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,6 +25,7 @@
     <file path="/Gemfile" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378796515469" ignored="false" />
     <file path="/.gitignore" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378820789982" ignored="false" />
     <file path="/new.html.erb" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378857285807" ignored="false" />
+    <file path="/README.rdoc" changelist="e03924fb-ee37-42ce-be67-b13dcb6b8193" time="1378858089296" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,15 +65,6 @@
         <entry file="file://$PROJECT_DIR$/app/views/heros/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/heros/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="45" selection-end="73" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -147,10 +134,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/heros/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="45" selection-start="373" selection-end="373" vertical-scroll-proportion="0.2857143">
+            <state line="10" column="45" selection-start="373" selection-end="373" vertical-scroll-proportion="-6.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rdoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="66" selection-start="155" selection-end="155" vertical-scroll-proportion="0.2840909">
               <folding />
             </state>
           </provider>
@@ -183,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/guide.rb" />
         <option value="$PROJECT_DIR$/app/models/hero.rb" />
         <option value="$PROJECT_DIR$/app/models/skill.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
@@ -199,6 +194,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/guides/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/guides/new.html.erb" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
@@ -808,13 +804,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="76" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
@@ -936,7 +925,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/heros/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="373" selection-end="373" vertical-scroll-proportion="0.2857143">
+        <state line="10" column="45" selection-start="373" selection-end="373" vertical-scroll-proportion="-6.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="66" selection-start="155" selection-end="155" vertical-scroll-proportion="0.2840909">
           <folding />
         </state>
       </provider>
