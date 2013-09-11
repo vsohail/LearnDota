@@ -9,5 +9,3 @@ SE project
 * Bootstrap 3.0.0
 
 * Database creation PG/Sqlite3
-
-[![Build Status](https://travis-ci.org/vsohail/LearnDota.png?branch=master)](https://travis-ci.org/vsohail/LearnDota)
