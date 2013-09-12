@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  guide_id: 1
+  numof_votes: 1
+
+two:
+  guide_id: 1
+  numof_votes: 1

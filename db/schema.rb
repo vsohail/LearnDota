@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130909143400) do
+ActiveRecord::Schema.define(version: 20130911212911) do
 
   create_table "guides", force: true do |t|
     t.integer  "lv1skill"
@@ -70,6 +70,13 @@ ActiveRecord::Schema.define(version: 20130909143400) do
   create_table "users", force: true do |t|
     t.string   "name"
     t.string   "email"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "votes", force: true do |t|
+    t.integer  "guide_id"
+    t.integer  "numof_votes"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

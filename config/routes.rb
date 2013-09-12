@@ -1,5 +1,8 @@
 LearnDota::Application.routes.draw do
-  resources :guides
+
+  resources :guides do
+    resources :votes
+  end
 
   resources :users
 

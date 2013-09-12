@@ -8,17 +8,19 @@
 
 
 
-Hero.create(name: 'Lina',oftype: 'Intelligence',faction: 'Dire',melrange: 'Range',hasguide: 0)
-Hero.create(name: 'Crystal Maiden',oftype: 'Intelligence',faction: 'Radiant',melrange:'Range',hasguide: 0)
-Hero.create(name: 'Outworld Destroyer',oftype: 'Intelligence',faction: 'Dire',melrange: 'Range',hasguide: 0)
-Hero.create(name: 'Juggernaut',oftype: 'Agility',faction: 'Dire',melrange:'Melee',hasguide: 0)
-Hero.create(name: 'Bounty Hunter',oftype: 'Agility',faction: 'Dire',melrange: 'Melee',hasguide: 0)
-Hero.create(name: 'Chaos Knight',oftype: 'Strength',faction: 'Dire',melrange:'Melee',hasguide: 0)
-Hero.create(name: 'Admiral Kunka',oftype: 'Strength',faction: 'Radiant',melrange: 'Melee',hasguide: 0)
-Hero.create(name: 'Natures Prophet',oftype: 'Intelligence',faction: 'Radiant',melrange:'Range',hasguide: 0)
-Hero.create(name: 'Phantom Assassin',oftype: 'Agility',faction: 'Dire',melrange: 'Melee',hasguide: 0)
-Hero.create(name: 'Templar Assassin',oftype: 'Agility',faction: 'Dire',melrange:'Range',hasguide: 0)
-
+#Hero.create(name: 'Lina',oftype: 'Intelligence',faction: 'Dire',melrange: 'Range',hasguide: 0)
+#Hero.create(name: 'Crystal Maiden',oftype: 'Intelligence',faction: 'Radiant',melrange:'Range',hasguide: 0)
+#Hero.create(name: 'Outworld Destroyer',oftype: 'Intelligence',faction: 'Dire',melrange: 'Range',hasguide: 0)
+#Hero.create(name: 'Juggernaut',oftype: 'Agility',faction: 'Dire',melrange:'Melee',hasguide: 0)
+#Hero.create(name: 'Bounty Hunter',oftype: 'Agility',faction: 'Dire',melrange: 'Melee',hasguide: 0)
+#Hero.create(name: 'Chaos Knight',oftype: 'Strength',faction: 'Dire',melrange:'Melee',hasguide: 0)
+#Hero.create(name: 'Admiral Kunka',oftype: 'Strength',faction: 'Radiant',melrange: 'Melee',hasguide: 0)
+#Hero.create(name: 'Natures Prophet',oftype: 'Intelligence',faction: 'Radiant',melrange:'Range',hasguide: 0)
+#Hero.create(name: 'Phantom Assassin',oftype: 'Agility',faction: 'Dire',melrange: 'Melee',hasguide: 0)
+#Hero.create(name: 'Templar Assassin',oftype: 'Agility',faction: 'Dire',melrange:'Range',hasguide: 0)
+Vote.create(guide_id: 1, numof_votes: 0)
+Vote.create(guide_id: 2, numof_votes: 0)
+Vote.create(guide_id: 3, numof_votes: 0)
 
 
 

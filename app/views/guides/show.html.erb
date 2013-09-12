@@ -65,7 +65,7 @@
   </div>
   <div class="col-lg-3">
   <div class="panel panel-default">
-    <div class="panel-heading">Skill Build[Early]
+    <div class="panel-heading">Skill Build[Mid-Late]
     </div>
     <div class="panel-body">
       <div class="form-group">
@@ -133,12 +133,38 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-lg-9">
+  <div class="col-lg-7">
     <div class="panel panel-default">
       <div class="panel-heading">Guide
       </div>
       <div class="panel-body">
        <textarea readonly style="width: 100%" rows="10"> <%= @guide.comment %> </textarea>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2">
+    <div class="panel panel-default">
+      <div class="panel-heading">Votes
+      </div>
+      <div class="panel-body">
+        <div class="row">
+          <% @vote=@guide.vote %>
+          <div class="col-lg-6">
+            <%= form_for([@guide, @vote],method: :put, remote: true) do |f| %>
+                <input id="vote_guide_id" name="vote[guide_id]" type="hidden" value="<%= @guide.vote.guide_id %>">
+                    <input id="vote_numof_votes_inc" name="vote[numof_votes]" type="hidden" value="<%= @guide.vote.numof_votes + 1 %>">
+                <%= f.submit "Up" %>
+            <% end %>
+          </div>
+          <div class="col-lg-6">
+            <%= form_for([@guide, @vote],method: :put, remote: true) do |f| %>
+                <input id="vote_guide_id" name="vote[guide_id]" type="hidden" value="<%= @guide.vote.guide_id %>">
+                <input id="vote_numof_votes_dec" name="vote[numof_votes]" type="hidden" value="<%= @guide.vote.numof_votes - 1 %>">
+                <%= f.submit "Down" %>
+            <% end %>
+          </div>
+        </div>
+        <div id="vote_status"><h1 style="text-align: center"><%= @guide.vote.numof_votes unless @guide.vote.nil? %></h1></div>
       </div>
     </div>
   </div>
@@ -151,4 +177,4 @@
     </div>
   </div>
 </div>
-</p>
+<%= link_to 'Destroy', @guide, method: :delete, data: { confirm: 'Are you sure?' } %>

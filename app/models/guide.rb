@@ -1,6 +1,7 @@
 class Guide < ActiveRecord::Base
   belongs_to :user
   belongs_to :hero
+  has_one :vote
   validates_inclusion_of :lv1skill, :in =>1..5,:message => "should be between 1 and 5"
   validates_inclusion_of :lv2skill, :in =>1..5,:message => "should be between 1 and 5"
   validates_inclusion_of :lv3skill, :in =>1..5,:message => "should be between 1 and 5"

@@ -1,0 +1,5 @@
+$('.edit_vote').bind('ajax:success', function () {
+    $("#vote_status").html('<h1 style="text-align: center"><%= @vote.numof_votes unless @vote.nil? %></h1>');
+    $("#vote_numof_votes_inc").val(<%= @vote.numof_votes + 1 %>);
+    $("#vote_numof_votes_dec").val(<%= @vote.numof_votes - 1 %>);
+});
