@@ -1,3 +1,7 @@
+Note:
+Refer to LearnDota1.2 repository. 
+The current repo is absolete
+
 LearnDota: A roster for dota2 heroes and guides
 
 SE project
